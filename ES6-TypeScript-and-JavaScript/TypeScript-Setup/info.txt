@@ -1,0 +1,5 @@
+Pour installer typescript ;
+npm install -g typescript
+
+POur avoir la version du transcompilateur;
+tsc -v
