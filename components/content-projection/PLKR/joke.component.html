@@ -1,0 +1,14 @@
+<div class="card card-block">
+  <h4 class="card-title">
+  	<ng-content select=".setup"></ng-content>
+  </h4>
+  <p class="card-text" [hidden]="data.hide">
+    <ng-content select=".punchline"></ng-content>
+  </p>
+  <a (click)="data.toggle()"
+     class="btn btn-warning">Tell Me
+  </a>
+  <a (click)="deleteItem()"
+     class="btn btn-danger">Delete
+  </a>
+</div>
